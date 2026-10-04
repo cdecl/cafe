@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "serve .",
     "start": "serve .",
-    "build": "mkdir -p public && cp index.html public/"
+    "build": "mkdir -p public .vercel/output/static && cp index.html public/ && cp index.html .vercel/output/static/"
   },
   "keywords": [
     "roulette",
