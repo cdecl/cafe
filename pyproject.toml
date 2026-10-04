@@ -1,0 +1,13 @@
+[project]
+name = "cafe-roulette"
+version = "0.1.0"
+description = "N개의 입력을 받아 회전하는 랜덤 룰렛 웹 애플리케이션"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+serve = "serve:run_server"
+
+[tool.uv]
+# Add uv configuration if needed
