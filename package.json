@@ -5,7 +5,8 @@
   "description": "Vue 3, Tailwind CSS, HTML5 Canvas 기반의 N개 입력 지원 웹 룰렛 애플리케이션",
   "scripts": {
     "dev": "serve .",
-    "start": "serve ."
+    "start": "serve .",
+    "build": "echo 'Static site, no build step required'"
   },
   "keywords": [
     "roulette",
